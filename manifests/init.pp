@@ -1,4 +1,5 @@
 #this module sets ntp configuration
+#this is second comment line
 class ntp_setup {
   ensure_packages(['ntp'])
     file { '/etc/ntp.conf':
